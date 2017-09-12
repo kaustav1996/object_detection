@@ -16,3 +16,7 @@ else
 	sudo mv ./models/faster_rcnn_inception_resnet_v2_atrous_coco.config ./models/rcnn.config
 	sudo nano ./models/rcnn.config
 fi
+sudo cp -R ./models/slim/deployment ./models/
+sudo cp -R ./models/slim/deployment ./models/object_detection/
+sudo cp -R ./models/slim/nets ./models/
+sudo cp -R ./models/slim/nets ./models/object_detection/
