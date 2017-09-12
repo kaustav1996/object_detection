@@ -1,7 +1,3 @@
-sudo cp -R ./models/slim/deployment ./models/
-sudo cp -R ./models/slim/deployment ./models/object_detection/
-sudo cp -R ./models/slim/nets ./models/
-sudo cp -R ./models/slim/nets ./models/object_detection/
 echo "[1] Mobilenet -fast -less accurate"
 echo "[2] RCNN      -slow -more accurate"
 read -p "Choose Detection Model: " x
