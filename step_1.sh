@@ -11,6 +11,7 @@ sudo cp -R ./models/slim/deployment ./models/
 sudo cp -R ./models/slim/deployment ./models/object_detection/
 sudo cp -R ./models/slim/nets ./models/
 sudo cp -R ./models/slim/nets ./models/object_detection/
+sudo cp -R ./models/slim/nets ./models/object_detection/builders/
 cd models
 sudo protoc object_detection/protos/*.proto --python_out=.
 export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
