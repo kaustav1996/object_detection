@@ -12,7 +12,7 @@ for i in `seq 1 $x`;
 		if [[ "$i" == "1" ]];then
 			s="'$nm'"
 		else
-			s="'$nm',$s"
+			s="$s,'$nm'"
 		fi
 done
 sed -i "s/replace_this/$s/" generate_tfrecord.py
