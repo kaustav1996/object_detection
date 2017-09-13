@@ -8,7 +8,6 @@ sudo pip install matplotlib
 sudo pip install pandas
 sudo git clone https://github.com/kaustav1996/object_detection/
 cd object_detection
-sudo mkdir data
 sudo git clone https://github.com/tensorflow/models
 sudo cp -R ./models/slim/deployment ./models/
 sudo cp -R ./models/slim/deployment ./models/object_detection/
