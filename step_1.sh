@@ -5,6 +5,7 @@ sudo pip install tensorflow
 sudo apt-get -y install protobuf-compiler python-pil python-lxml
 sudo pip install jupyter
 sudo pip install matplotlib
+sudo pip install pandas
 sudo git clone https://github.com/kaustav1996/object_detection/
 cd object_detection
 sudo mkdir data
