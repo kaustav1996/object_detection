@@ -1,10 +1,10 @@
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get -y install python-pip git wget
-sudo pip -y install tensorflow
+sudo pip install tensorflow
 sudo apt-get -y install protobuf-compiler python-pil python-lxml
-sudo pip -y install jupyter
-sudo pip -y install matplotlib
+sudo pip install jupyter
+sudo pip install matplotlib
 sudo git clone https://github.com/kaustav1996/object_detection/
 cd object_detection
 sudo mkdir data
