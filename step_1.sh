@@ -1,10 +1,10 @@
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get install python-pip git wget
-sudo pip install tensorflow
-sudo apt-get install protobuf-compiler python-pil python-lxml
-sudo pip install jupyter
-sudo pip install matplotlib
+sudo apt-get -y install python-pip git wget
+sudo pip -y install tensorflow
+sudo apt-get -y install protobuf-compiler python-pil python-lxml
+sudo pip -y install jupyter
+sudo pip -y install matplotlib
 sudo mkdir data
 sudo git clone https://github.com/tensorflow/models
 sudo cp -R ./models/slim/deployment ./models/
