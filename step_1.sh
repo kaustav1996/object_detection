@@ -17,6 +17,6 @@ sudo cp -R ./models/slim/nets ./models/object_detection/builders/
 cd models
 sudo protoc object_detection/protos/*.proto --python_out=.
 export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
-sudo python object_detection/builders/model_builder_test.py
 sudo python setup.py install
+sudo python ./object_detection/builders/model_builder_test.py
 cd ..
