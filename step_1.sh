@@ -5,6 +5,8 @@ sudo pip -y install tensorflow
 sudo apt-get -y install protobuf-compiler python-pil python-lxml
 sudo pip -y install jupyter
 sudo pip -y install matplotlib
+sudo git clone https://github.com/kaustav1996/object_detection/
+cd object_detection
 sudo mkdir data
 sudo git clone https://github.com/tensorflow/models
 sudo cp -R ./models/slim/deployment ./models/
