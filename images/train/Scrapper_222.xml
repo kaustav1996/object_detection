@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>Scrapper_222.jpg</filename>
+	<path>/home/snm/Desktop/images/train/Scrapper_222.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>250</width>
+		<height>188</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>blackbengal</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>28</ymin>
+			<xmax>238</xmax>
+			<ymax>188</ymax>
+		</bndbox>
+	</object>
+</annotation>

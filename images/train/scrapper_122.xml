@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>scrapper_122.png</filename>
+	<path>/home/snm/Desktop/images/train/scrapper_122.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>468</width>
+		<height>323</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>sirohi</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>82</xmin>
+			<ymin>42</ymin>
+			<xmax>406</xmax>
+			<ymax>323</ymax>
+		</bndbox>
+	</object>
+</annotation>
