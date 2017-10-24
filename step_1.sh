@@ -10,14 +10,13 @@ sudo git clone https://github.com/kaustav1996/object_detection/
 cd object_detection
 sudo mkdir data
 sudo git clone https://github.com/tensorflow/models
-sudo cp -R ./models/slim/deployment ./models/
-sudo cp -R ./models/slim/deployment ./models/object_detection/
-sudo cp -R ./models/slim/nets ./models/
-sudo cp -R ./models/slim/nets ./models/object_detection/
-sudo cp -R ./models/slim/nets ./models/object_detection/builders/
-cd models
+sudo cp -R ./models/research/slim/deployment ./models/research/
+sudo cp -R ./models/research/slim/deployment ./models/research/object_detection/
+sudo cp -R ./models/research/slim/nets ./models/research/
+sudo cp -R ./models/research/slim/nets ./models/research/object_detection/
+sudo cp -R ./models/research/slim/nets ./models/research/object_detection/builders/
+cd models/research/
 sudo protoc object_detection/protos/*.proto --python_out=.
 export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
 sudo python setup.py install
 sudo python ./object_detection/builders/model_builder_test.py
-cd ..
