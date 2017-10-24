@@ -1,0 +1,2 @@
+sudo python object_detection/train.py --logtostder
+r --pipeline_config_path=mobilenet.config --train_dir=../../training
